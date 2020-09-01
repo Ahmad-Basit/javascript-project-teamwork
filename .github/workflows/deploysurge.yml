@@ -24,12 +24,12 @@ jobs:
 
       # installing node
       - name: installing node
-      - uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v2-beta
         with:
           node-version: '12'
       # installing surge
       - name: installing surge
-      - run:  npm install --global surge
+        run:  npm install --global surge
       # deploy app to surge 
       - name: deploy project on surge
-      - run: surge ./ ahmadbasit_js.surge.sh --token ${{ secrets.AHMAD_TOKEN}} 
+        run: surge ./ ahmadbasit_js.surge.sh --token ${{ secrets.AHMAD_TOKEN}} 
