@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* { 
+     box-sizing: border-box;
+
+}
+
+body {
+    background-color: plum;
+     font-family: 'Courier New', Courier, monospace;
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     min-height: 40vh;
+     margin: 30%;
+     
+}
+.container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: yellow;
+    width: 550px;
+    display: block;
+
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form
+    {
+      padding: 20px ;
+       
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+.form-control label {
+    color: lightslategray;
+    display: block;
+    margin: 5px;
+}
+.form-control input{
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control input:focus {
+    outline: 0;
+    border-color: yellow;
+    
+}
+.form-control.success input {
+    border-color:limegreen;
+}
+.form-control.error input {
+    border-color: red;   
+}
+.form button {
+    cursor: pointer;
+    background-color: blue;
+    border: 2px solid blue;
+     border-radius: 4px;
+    color: white; 
+    display: block;
+    font size: 14px;
+    padding: 14px;
+    margin-top: 20px;
+    width: 100%;
+
+}
